@@ -1,0 +1,67 @@
+<script lang="ts">
+	import { tags } from '$lib/data/tags';
+	import hljs from 'highlight.js/lib/core';
+	import javascript from 'highlight.js/lib/languages/javascript';
+	import html from 'highlight.js/lib/languages/xml';
+	import 'highlight.js/styles/agate.css';
+
+	let isLoading = $state(true);
+	setTimeout(() => {
+		isLoading = false;
+		clearInterval(loadingTextTimeout);
+	}, 7000);
+
+	let loadingDots = $state('...');
+	const loadingTextTimeout = setInterval(() => {
+		if (loadingDots.length < 5) {
+			loadingDots += '.';
+		} else {
+			loadingDots = '.';
+		}
+	}, 250);
+
+	$effect(() => {
+		hljs.registerLanguage('javascript', javascript);
+		hljs.registerLanguage('html', html);
+		hljs.highlightAll();
+	});
+</script>
+
+<svelte:head>
+	<title>{isLoading ? `Loading${loadingDots}` : 'Success!'}</title>
+	<link rel="icon" href={isLoading ? './loading.svg' : './success.gif'} />
+	{@html tags.twitter.code}
+</svelte:head>
+
+<div class="text-column">
+	<h1>Loading Demo</h1>
+
+	In plain javascript:
+	<pre><code class="language-javascript">
+document.title = 'Loading.';
+const loadingTextTimeout = setInterval(() => &#123;
+  if (document.title !== 'Loading.....') &#123;
+    document.title += '.';
+  &#125; else &#123;
+    document.title = 'Loading.';
+  &#125;
+&#125;, 250);
+
+const onLoaded = () => &#123
+  clearInterval(loadingTextTimeout);
+  document.title = 'Success!';
+  var link = document.querySelector("link[rel~='icon']");
+  link.href = "./success.gif"
+&#125
+  </code></pre>
+
+	With a framework (like svelte):
+	<pre><code class="language-html">
+{`<svelte:head>
+  <title>{isLoading ? \`Loading\${loadingDots}\` : 'Success!'}</title>
+  <link rel="icon" href={isLoading ? './loading.svg' : './success.gif'} />
+</svelte:head>`}
+  </code></pre>
+
+	<p>Some text about the loading demo.</p>
+</div>
