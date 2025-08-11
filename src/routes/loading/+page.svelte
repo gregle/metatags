@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { tags } from '$lib/data/tags';
 	import hljs from 'highlight.js/lib/core';
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import html from 'highlight.js/lib/languages/xml';
@@ -30,7 +29,6 @@
 <svelte:head>
 	<title>{isLoading ? `Loading${loadingDots}` : 'Success!'}</title>
 	<link rel="icon" href={isLoading ? './loading.svg' : './success.gif'} />
-	{@html tags.twitter.code}
 </svelte:head>
 
 <div class="text-column">

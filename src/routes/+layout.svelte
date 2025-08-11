@@ -5,8 +5,6 @@
 	let { children } = $props();
 </script>
 
-<svelte:head></svelte:head>
-
 <div class="app">
 	<Header />
 

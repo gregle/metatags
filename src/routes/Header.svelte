@@ -12,9 +12,6 @@
 			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/" title="Home">Home</a>
 			</li>
-			<li aria-current={page.url.pathname === '/loading' ? 'page' : undefined}>
-				<a href="/loading" title="Loading Tab Demo">Loading</a>
-			</li>
 			{#each Object.entries(tags) as tag}
 				<li aria-current={page.url.pathname === `/${tag[0]}` ? 'page' : undefined}>
 					<a href="/{tag[0]}" title={tags[tag[0]].title}

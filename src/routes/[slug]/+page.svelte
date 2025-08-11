@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { page } from '$app/state';
-	import { tags } from '$lib/data/tags.js';
 	import hljs from 'highlight.js/lib/core';
 	import html from 'highlight.js/lib/languages/xml';
 	import 'highlight.js/styles/agate.css';
@@ -17,7 +15,6 @@
 <svelte:head>
 	<link rel="icon" href="./scooter.gif" />
 	{@html data.code}
-	{@html page.url.pathname.toLowerCase() !== '/twitter' ? tags.twitter.code : ''}
 </svelte:head>
 
 <div class="text-column">
