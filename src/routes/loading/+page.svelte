@@ -61,5 +61,10 @@ const onLoaded = () => &#123
 </svelte:head>`}
   </code></pre>
 
-	<p>Some text about the loading demo.</p>
+	<p>
+		You can have a lot of fun manipulating the title tag and fav icon with javascript. Watch your
+		browser tab as the title text is updated until some arbitrary time later when it declares itself
+		done loading. This is a very basic example, but you can be as creative as you want with it! Some
+		browsers (Firefox for example) even supports gifs as fav icons.
+	</p>
 </div>
