@@ -98,15 +98,16 @@ export const tags: {
   <meta name="description" content="Demonstrating how OG Audio previews behave in preview links." />
   <meta property="og:title" content="JOHN CENA!!!" />
   <meta property="og:description" content="AND HIS NAME IS JOHN CENA! *trumpets* *TRUMPETS* *trumpets* *trumpetssssss*" />
-  <meta property="og:type" content="music.song" />
+  <meta property="og:image" content="https://assets.gregle.dev/projects/metatags/confused-cena.jpg" />
   <!-- ... -->
+  <meta property="og:type" content="music.song" />
   <meta property="og:audio" content="http://assets.gregle.dev/projects/metatags/JOHN-CENA.mp3" />
   <meta property="og:audio:secure_url" content="https://assets.gregle.dev/projects/metatags/JOHN-CENA.mp3" />
   <meta property="og:audio:type" content="audio/mpeg" />
 `,
 		headerTitle: 'OG:Audio',
 		title: 'Open Graph - Audio',
-		text: "The audio tag however has fewer sub-properties, as sounds don't have a height or width. But depending on how the recieving platform has implemented things, it also allows for users to consume the content directly from the link preview."
+		text: "The audio tag however has fewer sub-properties, as sounds don't have a height or width. But depending on how the recieving platform has implemented things, it might even allow the users to consume the content directly from the link preview - but most sites don't, so it's a good idea to include a cover image as well."
 	},
 	schema: {
 		code: `
