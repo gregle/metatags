@@ -3,7 +3,6 @@
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import html from 'highlight.js/lib/languages/xml';
 	import 'highlight.js/styles/agate.css';
-	import { onMount } from 'svelte';
 
 	let isLoading = $state(true);
 	setTimeout(() => {
@@ -22,11 +21,6 @@
 
 	$effect(() => {
 		hljs.registerLanguage('javascript', javascript);
-		hljs.registerLanguage('html', html);
-		hljs.highlightAll();
-	});
-
-	onMount(() => {
 		hljs.registerLanguage('html', html);
 		hljs.highlightAll();
 	});

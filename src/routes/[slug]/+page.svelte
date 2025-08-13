@@ -2,17 +2,11 @@
 	import hljs from 'highlight.js/lib/core';
 	import html from 'highlight.js/lib/languages/xml';
 	import 'highlight.js/styles/agate.css';
-	import { onMount } from 'svelte';
 
 	const { data } = $props();
 
 	$effect(() => {
 		data; // used to force effect to rerun on data changes
-		hljs.registerLanguage('html', html);
-		hljs.highlightAll();
-	});
-
-	onMount(() => {
 		hljs.registerLanguage('html', html);
 		hljs.highlightAll();
 	});
