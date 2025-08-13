@@ -134,6 +134,7 @@ export const tags: {
   <meta property="og:description" content="Introducing The Twitter tags and demonstrating how
     you can use it to specifically target that cesspool of a social media site" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://assets.gregle.dev/projects/metatags/break-kings.webpg" />
   <!-- ... -->
 
   <meta name="twitter:card" content="summary_large_image" />
@@ -146,6 +147,7 @@ export const tags: {
   <meta property="og:description" content="Introducing The Twitter tags and demonstrating how
     you can use it to specifically target that cesspool of a social media site" />
   <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://assets.gregle.dev/projects/metatags/break-kings.webp" />
 `,
 		title: ' ̶T̶w̶i̶t̶t̶e̶r̶  X',
 		text: "Some past websites implemented their own version of open graph tags, specific to their domain. For example, there once was a company called Twitter, they implemented their own meta tag system. Though that original website is long gone now, it's tags are still blindly used by other social media platforms and, when used in conjunction with the more standard Open Grah tags (and because of the cascading nature of them), it can be used to target specific messaging to userbases. While still showing the OG and basic descriptions on other platforms. It's important to note though that you as a developer can't control what tag meta data scrappers use or how it gets scrapped in general. Some platforms take the first ':image' definition found, some look for the last, some look specifically for a whole tag (ie: 'og:*, or twitter:*'), so best I suggest both wrapping your twitter troll message with duplicated og tags above and below, and to not over do it with your targetted messaging.",
