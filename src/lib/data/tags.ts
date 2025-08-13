@@ -15,7 +15,7 @@ export const tags: {
   <title>Basic HTML - Title</title>
 `,
 		title: 'Basic <head>',
-		text: "The most basic implementation. Just a title and chracter incoding. No preview image, or extra description, so no need for meta data. The title tag is primarily used by browsers to define the text in the browser tab, and what gets auto set as a bookmark's title."
+		text: "The most basic implementation. Just a title and chracter encoding. No preview image, or extra description, so no need for meta data. The title tag is primarily used by browsers to define the text in the browser tab, and what gets auto set as a bookmark's title."
 	},
 	description: {
 		code: `
@@ -23,17 +23,18 @@ export const tags: {
   <title>Basic HTML - Title & Description</title>
   <meta name="description" content="Basic w/ Description - Description. 
     It's an extra long description so you can see how
-    certain apps cut off the message at different points."/>
+    certain apps cut off the message at different points.
+    Surely the app has cut off by now right? "/>
 `,
 		title: 'Basic HTML - Title & Description',
-		text: "The most basic implementation, but this time with a description. There's no technical limitation to how long your description can be, but most previews cut off after a couple of sentences."
+		text: "The most basic implementation, but this time with a description. There's no technical limitation to how long your description can be, but most previews cut off after a couple of sentences. And rightfully so, folks should be clicking into the page if they're that invested right?"
 	},
 	loading: {
 		code: '',
 		title: 'Dynamic Title Demo',
 		text: ''
 	},
-	'OG:Basic': {
+	'OG:Basics': {
 		code: `
   <meta charset="utf-8" />
   <title>OG:Basic</title>
@@ -42,9 +43,9 @@ export const tags: {
   <meta property="og:type" content="website" />
   <meta property="og:title" content="OG:Basic - An introduction to Open Graph" />
   <meta property="og:description" content="Getting started with Open Graph definitions.
-    Defining a type, a title, and a description, specifically for preview images." />
+    Defining a type, a title, and a description." />
 `,
-		title: 'Open Graph - Basic',
+		title: 'Open Graph - Basics',
 		text: "The Open Graph protocol is a set of standards originally annouced by Facebook in 2010 which define metadata tags that describe content and controls how it's displayed when sharing links on social media. It has been widely adopted by many platforms at this point. In the above example it duplicates the definition for title and definition, so when posted to most social media apps, the OG tags will be preferenced, but the title the browser tab will preference the standard html title tag. If the OG:description tag is omitted, most sites fallback to the standard description meta tag. This cascading definitions can be useful when targetting specific information to social media apps.<br/>In order for your content to be represented with the og:type tag. There are full type veritcals for music amd video with subtypes (eg: albums, movie, apisode), along with other simplier types like article, profile, or in this case, website."
 	},
 	'OG:Image': {
@@ -53,7 +54,7 @@ export const tags: {
   <title>OG:Image</title>
   <meta name="description" content="A good example of the most common preview use case." />
   <meta property="og:title" content="OG:Image - A common use case" />
-  <meta property="og:description" content="A good example of the most common preview use case.
+  <meta property="og:description" content="A good example of the most common link preview use case.
     Expanding our basic Open Graph definitions to include a preview image." />
   <meta property="og:type" content="website" />
   <!-- ... -->
@@ -90,7 +91,7 @@ export const tags: {
 		code: `
   <meta charset="utf-8" />
   <title>OG:Audio</title>
-  <meta name="description" content="Demonstrating how Audio previews behave in OG preview links." />
+  <meta name="description" content="Demonstrating how OG Audio previews behave in preview links." />
   <meta property="og:title" content="JOHN CENA!!!" />
   <meta property="og:description" content="AND HIS NAME IS JOHN CENA! *trumpets* *TRUMPETS* *trumpets* *trumpetssssss*" />
   <meta property="og:type" content="music.song" />
@@ -109,7 +110,6 @@ export const tags: {
   <meta name="description" content="Seattle's waterfront before and after the removal of the Alaskan Way Viaduct.
     Two timelapses from the same perspective to highlight the change in the area with the completetion of 30 seperate waterfront projects." />
   <!-- ... -->
-  
   <script type="application/ld+json">
     {
       "@context": "https://schema.org/",
@@ -129,16 +129,23 @@ export const tags: {
 		code: `
   <meta charset="utf-8" />
   <title> ̶T̶w̶i̶t̶t̶e̶r̶ ̶  X.com</title>
-  <meta name="description" content="Introducing The 3rd Party tags" />
-  <meta property="og:title" content="" />
-  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how you can use them to
-    specifically target that cesspool of a social media site" />
+  <meta name="description" content="Another kind of meta tag" />
+  <meta property="og:title" content="Twitter Meta Tags" />
+  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how
+    you can use it to specifically target that cesspool of a social media site" />
   <meta property="og:type" content="website" />
   <!-- ... -->
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Delete your Twitter" />
   <meta name="twitter:description" content="Nothing good happens here" />
   <meta property="twitter:image" content="https://assets.gregle.dev/projects/metatags/rip-twitter.png" />
+
+  <!-- ... -->
+  <meta property="og:title" content="Twitter Meta Tags" />
+  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how
+    you can use it to specifically target that cesspool of a social media site" />
+  <meta property="og:type" content="website" />
 `,
 		title: ' ̶T̶w̶i̶t̶t̶e̶r̶  X',
 		text: "Some past websites implemented their own version of open graph tags, specific to their domain. For example, there once was a company called Twitter, they implemented their own meta tag system. Though that original website is long gone now, it's tags are still blindly used by other social media platforms and, when used in conjunction with the more standard Open Grah tags (and because of the cascading nature of them), it can be used to target specific messaging to userbases. While still showing the OG and basic descriptions on other platforms. It's important to note though that you as a developer can't control what tag meta data scrappers use or how it gets scrapped in general. Some platforms take the first ':image' definition found, some look for the last, some look specifically for a whole tag (ie: 'og:*, or twitter:*'), so best I suggest both wrapping your twitter troll message with duplicated og tags above and below, and to not over do it with your targetted messaging.",
