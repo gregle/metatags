@@ -79,8 +79,8 @@ export const tags: {
   <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
   <meta property="og:description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
     And demonstrating how more complex media types are handled by OG preview links." />
-  <meta property="og:type" content="video.other" />
   <!-- ... -->
+  <meta property="og:type" content="video.other" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:type" content="video/mp4" />
