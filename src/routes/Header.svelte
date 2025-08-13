@@ -56,13 +56,11 @@
 		margin: 0;
 		height: 3em;
 		display: flex;
-		/* justify-content: center; */
 		align-items: center;
 		list-style: none;
 		background: var(--background);
-		/* background-size: contain; */
 		overflow-x: auto;
-		max-width: 86%;
+		max-width: 75%;
 	}
 
 	li {
