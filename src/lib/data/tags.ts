@@ -26,7 +26,6 @@ export const tags: {
     certain apps cut off the message at different points.
     Surely the app has cut off by now right? "/>
 `,
-		tabText: 'Description',
 		title: 'Basic HTML - Title & Description',
 		text: "The most basic implementation, but this time with a description. There's no technical limitation to how long your description can be, but most previews cut off after a couple of sentences. And rightfully so, folks should be clicking into the page if they're that invested right?"
 	},

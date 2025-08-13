@@ -3,6 +3,7 @@
 	import javascript from 'highlight.js/lib/languages/javascript';
 	import html from 'highlight.js/lib/languages/xml';
 	import 'highlight.js/styles/agate.css';
+	import { onMount } from 'svelte';
 
 	let isLoading = $state(true);
 	setTimeout(() => {
@@ -24,6 +25,11 @@
 		hljs.registerLanguage('html', html);
 		hljs.highlightAll();
 	});
+
+	onMount(() => {
+		hljs.registerLanguage('html', html);
+		hljs.highlightAll();
+	});
 </script>
 
 <svelte:head>
@@ -35,7 +41,7 @@
 	<h1>Loading Demo</h1>
 
 	In plain javascript:
-	<pre><code class="language-javascript">
+	<pre><code class="language-javascript hljs">
 document.title = 'Loading.';
 const loadingTextTimeout = setInterval(() => &#123;
   if (document.title !== 'Loading.....') &#123;
