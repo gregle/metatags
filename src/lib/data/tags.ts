@@ -58,8 +58,8 @@ export const tags: {
   <meta property="og:description" content="Expanding our basic Open Graph definitions to include a preview image. Fun fact, you can make the image anything you want!" />
   <meta property="og:type" content="website" />
   <!-- ... -->
-  <meta property="og:image" content="http://assets.gregle.dev/projects/metatags/sunscreen-zuck.jpg" />
-  <meta property="og:image:secure_url" content="https://assets.gregle.dev/projects/metatags/sunscreen-zuck.jpg" />
+  <meta property="og:image" content="http://assets.gregle.dev/projects/metatags/cool-zuck.jpg" />
+  <meta property="og:image:secure_url" content="https://assets.gregle.dev/projects/metatags/cool-zuck.jpg" />
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="600" />
