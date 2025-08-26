@@ -178,12 +178,11 @@ export const tags: {
 
   <!-- ... -->
   <meta name="twitter:card" content="player">
-  <meta name="twitter:site" content="gregle.dev">
-  <meta name="twitter:creator" content="@creator">
-  <meta name="twitter:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg">
-  <meta name="twitter:player" content="https://assets.gregle.dev/timelapses/eclipse.mp4">
-  <meta name="twitter:player:stream" content="https://assets.gregle.dev/timelapses/eclipse.mp4">
-  <meta name="twitter:player:width" content="720">
+  <meta name="twitter:site" content="@youtube">
+  <meta name="twitter:title" content="Nazi Punks Fuck Off">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/ZcOisEIjm9o/maxresdefault.jpg">
+  <meta name="twitter:player" content="https://www.youtube.com/embed/ZcOisEIjm9o">
+  <meta name="twitter:player:width" content="960">
   <meta name="twitter:player:height" content="720">
 
   <!-- ... -->
