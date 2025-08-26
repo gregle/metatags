@@ -77,6 +77,7 @@ export const tags: {
   <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
   <meta property="og:description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
     And demonstrating how more complex media types are handled by OG preview links." />
+  <meta property="og:image content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
   <!-- ... -->
   <meta property="og:type" content="video.other" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
@@ -168,6 +169,7 @@ export const tags: {
     And demonstrating how more complex media types are handled by OG preview links." />
   <!-- ... -->
   <meta property="og:type" content="video.other" />
+  <meta property="og:image content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:type" content="video/mp4" />
@@ -184,13 +186,14 @@ export const tags: {
 
   <!-- ... -->
   <meta property="og:type" content="video.other" />
+  <meta property="og:image content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:type" content="video/mp4" />
   <meta property="og:video:width" content="720" />
   <meta property="og:video:height" content="720" />
 `,
-		headerTitle: 'twitter:player',
+		headerTitle: '<s>Twitter</s>:player',
 		title: 'Twitter - Player',
 		text: 'Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well.'
 	}
