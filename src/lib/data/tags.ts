@@ -177,12 +177,12 @@ export const tags: {
   <meta property="og:video:height" content="720" />
 
   <!-- ... -->
-
   <meta name="twitter:card" content="player" />
+  <meta name="twitter:site" content="youtube" />
   <meta name="twitter:title" content="Nazi Punks Fuck Off">
+  <meta name="twitter:player" content="https://www.youtube.com/watch?v=ZcOisEIjm9o">
   <meta name="twitter:description" content="Delete your twitter" />
   <meta property="twitter:image" content="https://assets.gregle.dev/projects/metatags/rip-twitter.png" />
-  <meta name="twitter:url" content="https://www.youtube.com/watch?v=ZcOisEIjm9o">
 
   <!-- ... -->
   <meta property="og:type" content="video.other" />
@@ -194,7 +194,7 @@ export const tags: {
   <meta property="og:video:height" content="720" />
 `,
 		headerTitle: '<s>Twitter</s>:player',
-		title: 'Twitter - Player',
+		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
 		text: 'Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well.'
 	}
 };
