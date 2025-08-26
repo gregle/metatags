@@ -157,5 +157,41 @@ export const tags: {
 		title: ' ̶T̶w̶i̶t̶t̶e̶r̶  X',
 		text: "Some past websites implemented their own version of open graph tags, specific to their domain. For example, there once was a company called Twitter, they implemented their own meta tag system. Though that original website is long gone now, it's tags are still blindly used by other social media platforms and, when used in conjunction with the more standard Open Grah tags (and because of the cascading nature of them), it can be used to target specific messaging to userbases. While still showing the OG and basic descriptions on other platforms. It's important to note though that you as a developer can't control what tag meta data scrappers use or how it gets scrapped in general. Some platforms take the first ':image' definition found, some look for the last, some look specifically for a whole tag (ie: 'og:*, or twitter:*'), so best I suggest both wrapping your twitter troll message with duplicated og tags above and below, and to not over do it with your targetted messaging.",
 		headerTitle: '<s>Twitter</s>'
+	},
+	'twitter-player': {
+		code: `
+  <meta charset="utf-8" />
+  <title>OG:Video</title>
+  <meta name="description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon." />
+  <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
+  <meta property="og:description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
+    And demonstrating how more complex media types are handled by OG preview links." />
+  <!-- ... -->
+  <meta property="og:type" content="video.other" />
+  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:type" content="video/mp4" />
+  <meta property="og:video:width" content="720" />
+  <meta property="og:video:height" content="720" />
+
+  <!-- ... -->
+
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:title" content="Nazi Punks Fuck Off">
+  <meta name="twitter:description" content="Delete your twitter" />
+  <meta property="twitter:image" content="https://assets.gregle.dev/projects/metatags/rip-twitter.png" />
+  <meta name="twitter:url" content="https://www.youtube.com/watch?v=ZcOisEIjm9o">
+
+  <!-- ... -->
+  <meta property="og:type" content="video.other" />
+  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:type" content="video/mp4" />
+  <meta property="og:video:width" content="720" />
+  <meta property="og:video:height" content="720" />
+`,
+		headerTitle: 'twitter:player',
+		title: 'Twitter - Player',
+		text: 'Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well.'
 	}
 };
