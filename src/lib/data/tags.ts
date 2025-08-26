@@ -177,12 +177,14 @@ export const tags: {
   <meta property="og:video:height" content="720" />
 
   <!-- ... -->
-  <meta name="twitter:card" content="player" />
-  <meta name="twitter:site" content="youtube" />
-  <meta name="twitter:title" content="Nazi Punks Fuck Off">
-  <meta name="twitter:player" content="https://www.youtube.com/watch?v=ZcOisEIjm9o">
-  <meta name="twitter:description" content="Delete your twitter" />
-  <meta property="twitter:image" content="https://assets.gregle.dev/projects/metatags/rip-twitter.png" />
+  <meta name="twitter:card" content="player">
+  <meta name="twitter:site" content="gregle.dev">
+  <meta name="twitter:creator" content="@creator">
+  <meta name="twitter:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg">
+  <meta name="twitter:player" content="https://assets.gregle.dev/timelapses/eclipse.mp4">
+  <meta name="twitter:player:stream" content="https://assets.gregle.dev/timelapses/eclipse.mp4">
+  <meta name="twitter:player:width" content="720">
+  <meta name="twitter:player:height" content="720">
 
   <!-- ... -->
   <meta property="og:type" content="video.other" />
