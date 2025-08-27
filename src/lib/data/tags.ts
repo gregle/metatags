@@ -162,52 +162,52 @@ export const tags: {
 	'twitter-player': {
 		code: `
   <meta charset="utf-8" />
-	<title>player</title>
-	<meta
-		name="description"
-		content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon."
-	/>
-	<meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
-	<meta
-		property="og:description"
-		content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
+  <title>player</title>
+  <meta
+    name="description"
+    content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon."
+  />
+  <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
+  <meta
+    property="og:description"
+    content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
     And demonstrating how more complex media types are handled by OG preview links."
-	/>
-	<meta property="og:type" content="video.other" />
-	<meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
-	<meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
-	<meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
-	<meta property="og:video:type" content="video/mp4" />
-	<meta property="og:video:width" content="720" />
-	<meta property="og:video:height" content="720" />
+  />
+  <meta property="og:type" content="video.other" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:type" content="video/mp4" />
+  <meta property="og:video:width" content="720" />
+  <meta property="og:video:height" content="720" />
 
-	<!-- ... -->
-	<meta name="twitter:card" content="player" />
-	<meta name="twitter:title" content="Nazi Punks Fuck Off" />
-	<meta name="twitter:site" content="@elonmusk" />
-	<meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo" />
-	<meta name="twitter:player:width" content="420" />
-	<meta name="twitter:player:height" content="360" />
-	<meta
-		name="twitter:description"
-		content="My Content is not for you. NAZI PUNKS - NAZI PUNKS - NAZI PUNKS: FUCK OFF!"
-	/>
-	<meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg" />
-	<!-- ... -->
+  <!-- ... -->
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:title" content="Nazi Punks Fuck Off" />
+  <meta name="twitter:site" content="@elonmusk" />
+  <meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo" />
+  <meta name="twitter:player:width" content="420" />
+  <meta name="twitter:player:height" content="360" />
+  <meta
+    name="twitter:description"
+    content="My Content is not for you. NAZI PUNKS - NAZI PUNKS - NAZI PUNKS: FUCK OFF!"
+  />
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg" />
+  <!-- ... -->
 
-	<meta property="og:type" content="video.other" />
-	<meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
-	<meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
-	<meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
-	<meta property="og:video:type" content="video/mp4" />
-	<meta property="og:video:width" content="720" />
-	<meta property="og:video:height" content="720" />
-	<meta
-		property="og:description"
-		content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
+  <meta property="og:type" content="video.other" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:video:type" content="video/mp4" />
+  <meta property="og:video:width" content="720" />
+  <meta property="og:video:height" content="720" />
+  <meta
+    property="og:description"
+    content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
     And demonstrating how more complex media types are handled by OG preview links."
-	/>
-	<meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
+  />
+  <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
 `,
 		headerTitle: '<s>Twitter</s>:player',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
