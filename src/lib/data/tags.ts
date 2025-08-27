@@ -178,12 +178,13 @@ export const tags: {
 
   <!-- ... -->
   <meta name="twitter:card" content="player">
-  <meta name="twitter:site" content="@youtube">
   <meta name="twitter:title" content="Nazi Punks Fuck Off">
-  <meta name="twitter:image" content="https://i.ytimg.com/vi/ZcOisEIjm9o/maxresdefault.jpg">
-  <meta name="twitter:player" content="https://www.youtube.com/embed/ZcOisEIjm9o">
-  <meta name="twitter:player:width" content="960">
+  <meta name="twitter:site" content="@elonmusk">
+  <meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo">
+  <meta name="twitter:player:width" content="1280">
   <meta name="twitter:player:height" content="720">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg">
+
 
   <!-- ... -->
   <meta property="og:type" content="video.other" />
