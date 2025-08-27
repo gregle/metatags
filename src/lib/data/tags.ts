@@ -162,40 +162,55 @@ export const tags: {
 	'twitter-player': {
 		code: `
   <meta charset="utf-8" />
-  <title>̶T̶w̶i̶t̶t̶e̶r̶ - Player</title>
-  <meta name="description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon." />
-  <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
-  <meta property="og:description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
-    And demonstrating how more complex media types are handled by OG preview links." />
-  <!-- ... -->
-  <meta property="og:type" content="video.other" />
-  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
-  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:type" content="video/mp4" />
-  <meta property="og:video:width" content="720" />
-  <meta property="og:video:height" content="720" />
+	<title>player</title>
+	<meta
+		name="description"
+		content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon."
+	/>
+	<meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
+	<meta
+		property="og:description"
+		content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
+    And demonstrating how more complex media types are handled by OG preview links."
+	/>
+	<meta property="og:type" content="video.other" />
+	<meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+	<meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
+	<meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+	<meta property="og:video:type" content="video/mp4" />
+	<meta property="og:video:width" content="720" />
+	<meta property="og:video:height" content="720" />
 
-  <!-- ... -->
-  <meta name="twitter:card" content="player">
-  <meta name="twitter:title" content="Nazi Punks Fuck Off">
-  <meta name="twitter:site" content="@elonmusk">
-  <meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo">
-  <meta name="twitter:player:width" content="1280">
-  <meta name="twitter:player:height" content="720">
-  <meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg">
+	<!-- ... -->
+	<meta name="twitter:card" content="player" />
+	<meta name="twitter:title" content="Nazi Punks Fuck Off" />
+	<meta name="twitter:site" content="@elonmusk" />
+	<meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo" />
+	<meta name="twitter:player:width" content="420" />
+	<meta name="twitter:player:height" content="360" />
+	<meta
+		name="twitter:description"
+		content="My Content is not for you. NAZI PUNKS - NAZI PUNKS - NAZI PUNKS: FUCK OFF!"
+	/>
+	<meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg" />
+	<!-- ... -->
 
-  <!-- ... -->
-  <meta property="og:type" content="video.other" />
-  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
-  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:type" content="video/mp4" />
-  <meta property="og:video:width" content="720" />
-  <meta property="og:video:height" content="720" />
+	<meta property="og:type" content="video.other" />
+	<meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+	<meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
+	<meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+	<meta property="og:video:type" content="video/mp4" />
+	<meta property="og:video:width" content="720" />
+	<meta property="og:video:height" content="720" />
+	<meta
+		property="og:description"
+		content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
+    And demonstrating how more complex media types are handled by OG preview links."
+	/>
+	<meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
 `,
 		headerTitle: '<s>Twitter</s>:player',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
-		text: 'Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well.'
+		text: "Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well. The trick is that the player needs to be a hosted webpage with it's own fullscreen video player. This is because S developers are god damned lazy and just going to through the content in an iframe. This can be useful though, as you can really put anything you want inside that iframe. Like say meat spin, or I guess more complex applications too but why?"
 	}
 };
