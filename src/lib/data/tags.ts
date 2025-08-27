@@ -183,8 +183,7 @@ export const tags: {
   <meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo">
   <meta name="twitter:player:width" content="1280">
   <meta name="twitter:player:height" content="720">
-  <meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg">
-
+  <meta name="twitter:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg">
 
   <!-- ... -->
   <meta property="og:type" content="video.other" />
