@@ -162,14 +162,14 @@ export const tags: {
 	'twitter-player': {
 		code: `
   <meta charset="utf-8" />
-  <title>OG:Video</title>
+  <title>̶T̶w̶i̶t̶t̶e̶r̶ - Player</title>
   <meta name="description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon." />
   <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
   <meta property="og:description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
     And demonstrating how more complex media types are handled by OG preview links." />
   <!-- ... -->
   <meta property="og:type" content="video.other" />
-  <meta property="og:image content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:type" content="video/mp4" />
@@ -183,11 +183,11 @@ export const tags: {
   <meta name="twitter:player" content="https://meta-tester.pages.dev/punks-fo">
   <meta name="twitter:player:width" content="1280">
   <meta name="twitter:player:height" content="720">
-  <meta name="twitter:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg">
+  <meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg">
 
   <!-- ... -->
   <meta property="og:type" content="video.other" />
-  <meta property="og:image content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
   <meta property="og:video:type" content="video/mp4" />
