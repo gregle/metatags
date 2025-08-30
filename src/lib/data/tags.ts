@@ -240,7 +240,7 @@ export const tags: {
 	<meta name="twitter:player:height" content="420" />
 	<!-- ... -->
 `,
-		headerTitle: '<s>Twitter</s>:teams-safe',
+		headerTitle: '<s>Twitter</s>:safest',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player - excluding unique image',
 		text: "Now if you're not including a different image or other content that overlaps with other OG tags, there's no need to repeat them! So we can greatly simplify our implementation even though it'll be less impactful to those posting to twitter."
 	}
