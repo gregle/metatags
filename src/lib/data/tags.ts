@@ -226,7 +226,7 @@ export const tags: {
 		property="og:description"
 		content="A totally normal website with normal things for normal people"
 	/>
-	<meta property="og:type" content="video.other" />
+	<meta property="og:type" content="website" />
 	<meta
 		property="og:image"
 		content="https://assets.gregle.dev/projects/metatags/nothing-to-see.gif"
