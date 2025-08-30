@@ -77,7 +77,7 @@ export const tags: {
   <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
   <meta property="og:description" content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
     And demonstrating how more complex media types are handled by OG preview links." />
-  <meta property="og:image content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
   <!-- ... -->
   <meta property="og:type" content="video.other" />
   <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
@@ -212,5 +212,36 @@ export const tags: {
 		headerTitle: '<s>Twitter</s>:player',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
 		text: "Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well. The trick is that the player needs to be a hosted webpage with it's own fullscreen video player. This is because S developers are god damned lazy and just going to through the content in an iframe. This can be useful though, as you can really put anything you want inside that iframe. Like say meat spin, or I guess more complex applications too but why?"
+	},
+	'twitter-teams': {
+		code: `
+  <meta charset="utf-8" />
+  <title>Teams Proofing The Troll</title>
+  <meta
+    name="description"
+    content="Limiting the twitter specific tags to tags only twitter uses"
+  />
+	<meta property="og:title" content="A totally normal website" />
+	<meta
+		property="og:description"
+		content="A totally normal website with normal things for normal people"
+	/>
+	<meta property="og:type" content="video.other" />
+	<meta
+		property="og:image"
+		content="https://assets.gregle.dev/projects/metatags/nothing-to-see.gif"
+	/>
+
+	<!-- ... -->
+	<meta name="twitter:card" content="player" />
+	<meta name="twitter:site" content="@elonmusk" />
+	<meta name="twitter:player" content="https://naz-elon.com/" />
+	<meta name="twitter:player:width" content="420" />
+	<meta name="twitter:player:height" content="420" />
+	<!-- ... -->
+`,
+		headerTitle: '<s>Twitter</s>:teams-safe',
+		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player - excluding unique image',
+		text: "Now if you're not including a different image or other content that overlaps with other OG tags, there's no need to repeat them! So we can greatly simplify our implementation even though it'll be less impactful to those posting to twitter."
 	}
 };
