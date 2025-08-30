@@ -221,24 +221,24 @@ export const tags: {
     name="description"
     content="Limiting the twitter specific tags to tags only twitter uses"
   />
-	<meta property="og:title" content="A totally normal website" />
-	<meta
-		property="og:description"
-		content="A totally normal website with normal things for normal people"
-	/>
-	<meta property="og:type" content="website" />
-	<meta
-		property="og:image"
-		content="https://assets.gregle.dev/projects/metatags/nothing-to-see.gif"
-	/>
+  <meta property="og:title" content="A totally normal website" />
+  <meta
+    property="og:description"
+    content="A totally normal website with normal things for normal people"
+  />
+  <meta property="og:type" content="website" />
+  <meta
+    property="og:image"
+    content="https://assets.gregle.dev/projects/metatags/nothing-to-see.gif"
+  />
 
-	<!-- ... -->
-	<meta name="twitter:card" content="player" />
-	<meta name="twitter:site" content="@elonmusk" />
-	<meta name="twitter:player" content="https://naz-elon.com/" />
-	<meta name="twitter:player:width" content="420" />
-	<meta name="twitter:player:height" content="420" />
-	<!-- ... -->
+  <!-- ... -->
+  <meta name="twitter:card" content="player" />
+  <meta name="twitter:site" content="@elonmusk" />
+  <meta name="twitter:player" content="https://naz-elon.com/" />
+  <meta name="twitter:player:width" content="420" />
+  <meta name="twitter:player:height" content="420" />
+  <!-- ... -->
 `,
 		headerTitle: '<s>Twitter</s>:safest',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player - excluding unique image',
