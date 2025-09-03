@@ -173,6 +173,7 @@ export const tags: {
   <meta property="og:type" content="video.other" />
   <meta property="og:image" content="https://assets.gregle.dev/timelapses/viaduct/preview.jpg" />
   <meta property="og:video" content="https://assets.gregle.dev/timelapses/viaduct/Viaduct-embed.mp4" />
+  <meta property="og:url" content="https://seattle-viaduct.gregle.dev/" />
   <meta property="og:video:type" content="video/mp4" />
   <meta property="og:video:width" content="1920" />
   <meta property="og:video:height" content="1080" />
