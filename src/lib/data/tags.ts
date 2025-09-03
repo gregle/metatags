@@ -165,7 +165,7 @@ export const tags: {
     name="description"
     content="Dual timelapses of the Seattle Waterfront before and after the viaduct removal"
   />
-  <meta property="og:title" content="OG:Video - Seattle Waterfront Before & After" />
+  <meta property="og:title" content="Seattle Waterfront Before & After" />
   <meta
     property="og:description"
     content="Dual timelapses of the Seattle Waterfront before and after the viaduct removal. And demonstrating how more complex media types are handled by OG preview links."
@@ -173,7 +173,6 @@ export const tags: {
   <meta property="og:type" content="video.other" />
   <meta property="og:image" content="https://assets.gregle.dev/timelapses/viaduct/preview.jpg" />
   <meta property="og:video" content="https://assets.gregle.dev/timelapses/viaduct/Viaduct-embed.mp4" />
-  <meta property="og:url" content="https://seattle-viaduct.gregle.dev/" />
   <meta property="og:video:type" content="video/mp4" />
   <meta property="og:video:width" content="1920" />
   <meta property="og:video:height" content="1080" />
@@ -199,7 +198,7 @@ export const tags: {
     property="og:description"
     content="Dual timelapses of the Seattle Waterfront before and after the viaduct removal. And demonstrating how more complex media types are handled by OG preview links"
   />
-  <meta property="og:title" content="OG:Video - Seattle Waterfront Before & After" />
+  <meta property="og:title" content="Seattle Waterfront Before & After" />
 `,
 		headerTitle: '<s>Twitter</s>:player',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
