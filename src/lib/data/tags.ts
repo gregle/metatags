@@ -137,8 +137,7 @@ export const tags: {
   <title> ̶T̶w̶i̶t̶t̶e̶r̶ ̶  X.com</title>
   <meta name="description" content="Another kind of meta tag" />
   <meta property="og:title" content="Twitter Meta Tags" />
-  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how
-    you can use it to specifically target that cesspool of a social media site" />
+  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how you can use it to specifically target that cesspool of a social media site" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://assets.gregle.dev/projects/metatags/break-kings.jpg" />
   <!-- ... -->
@@ -150,8 +149,7 @@ export const tags: {
 
   <!-- ... -->
   <meta property="og:title" content="Twitter Meta Tags" />
-  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how
-    you can use it to specifically target that cesspool of a social media site" />
+  <meta property="og:description" content="Introducing The Twitter tags and demonstrating how you can use it to specifically target that cesspool of a social media site" />
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://assets.gregle.dev/projects/metatags/break-kings.jpg" />
 `,
@@ -162,24 +160,23 @@ export const tags: {
 	'twitter-player': {
 		code: `
   <meta charset="utf-8" />
-  <title>player</title>
+  <title>Twitter Player</title>
   <meta
     name="description"
-    content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon."
+    content="Dual timelapses of the Seattle Waterfront before and after the viaduct removal"
   />
-  <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
+  <meta property="og:title" content="OG:Video - Seattle Waterfront Before & After" />
   <meta
     property="og:description"
-    content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
-    And demonstrating how more complex media types are handled by OG preview links."
+    content="Dual timelapses of the Seattle Waterfront before and after the viaduct removal. And demonstrating how more complex media types are handled by OG preview links."
   />
   <meta property="og:type" content="video.other" />
-  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
-  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/viaduct/preview.jpg" />
+  <meta property="og:video" content="https://assets.gregle.dev/timelapses/viaduct/Viaduct-embed.mp4" />
+  <meta property="og:url" content="https://seattle-viaduct.gregle.dev/" />
   <meta property="og:video:type" content="video/mp4" />
-  <meta property="og:video:width" content="720" />
-  <meta property="og:video:height" content="720" />
+  <meta property="og:video:width" content="1920" />
+  <meta property="og:video:height" content="1080" />
 
   <!-- ... -->
   <meta name="twitter:card" content="player" />
@@ -190,24 +187,19 @@ export const tags: {
   <meta name="twitter:player:height" content="360" />
   <meta
     name="twitter:description"
-    content="My Content is not for you. NAZI PUNKS - NAZI PUNKS - NAZI PUNKS: FUCK OFF!"
+    content="My Content is not for you. NAZI PUNKS FUCK OFF!"
   />
   <meta name="twitter:image" content="https://i.ytimg.com/vi/PzHLPnGuVSQ/maxresdefault.jpg" />
   <!-- ... -->
 
-  <meta property="og:type" content="video.other" />
-  <meta property="og:image" content="https://assets.gregle.dev/timelapses/thumbs/eclipse.jpg" />
-  <meta property="og:video" content="http://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:secure_url" content="https://assets.gregle.dev/timelapses/eclipse.mp4" />
-  <meta property="og:video:type" content="video/mp4" />
-  <meta property="og:video:width" content="720" />
-  <meta property="og:video:height" content="720" />
+  <meta property="og:image" content="https://assets.gregle.dev/timelapses/viaduct/preview.jpg" />
+  <meta property="og:video:width" content="1920" />
+  <meta property="og:video:height" content="1080" />
   <meta
     property="og:description"
-    content="A time lapse of the 2017 total solar eclipse shot from eastern Oregon.
-    And demonstrating how more complex media types are handled by OG preview links."
+    content="Dual timelapses of the Seattle Waterfront before and after the viaduct removal. And demonstrating how more complex media types are handled by OG preview links"
   />
-  <meta property="og:title" content="OG:Video - The 2017 Total Eclipse" />
+  <meta property="og:title" content="OG:Video - Seattle Waterfront Before & After" />
 `,
 		headerTitle: '<s>Twitter</s>:player',
 		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
