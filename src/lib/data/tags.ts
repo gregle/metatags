@@ -37,7 +37,7 @@ export const tags: {
 	'OG-Basics': {
 		code: `
   <meta charset="utf-8" />
-  <title>OG:Basic</title>
+  <title>Basic Title</title>
   <meta name="description" content="Getting started with Open Graph definitions" />
   <!-- ... -->
   <meta property="og:type" content="website" />
