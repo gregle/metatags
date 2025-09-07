@@ -11,7 +11,7 @@ export const tags: {
 } = {
 	basic: {
 		code: `
-  <meta charset="utf-8" />
+  <meta charset="utf-8"></meta>
   <title>Basic HTML - Title</title>
 `,
 		title: 'Basic <head>',
