@@ -227,7 +227,7 @@ export const tags: {
   <!-- ... -->
   <meta name="twitter:card" content="player" />
   <meta name="twitter:site" content="@elonmusk" />
-  <meta name="twitter:player" content="https://naz-elon.com/" />
+  <meta name="twitter:player" content="https://stop-using-twitter.com/" />
   <meta name="twitter:player:width" content="420" />
   <meta name="twitter:player:height" content="420" />
   <!-- ... -->
