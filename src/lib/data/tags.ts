@@ -14,7 +14,7 @@ export const tags: {
   <meta charset="utf-8"></meta>
   <title>Basic HTML - Title</title>
 `,
-		title: 'Basic <head>',
+		title: 'Basic &lt;head&gt;',
 		text: "The most basic implementation. Just a title and character encoding. No preview image or extra description, so no need for metadata. The title tag is primarily used by browsers to define the text in the browser tab and what gets auto-set as a bookmark's title."
 	},
 	description: {
