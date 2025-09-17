@@ -3,7 +3,7 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 <section>
-	<h1>Fun w/ Meta Tags</h1>
+	<h1>Metatag Tester</h1>
 	<p>
 		I set up this little project to help test and verify how sites consume the various ways we can
 		define metadata on a site. Particularly when link previews are being generated. Each page uses
