@@ -15,7 +15,7 @@ export const tags: {
   <title>Basic HTML - Title</title>
 `,
 		title: 'Basic <head>',
-		text: "The most basic implementation. Just a title and chracter encoding. No preview image, or extra description, so no need for meta data. The title tag is primarily used by browsers to define the text in the browser tab, and what gets auto set as a bookmark's title."
+		text: "The most basic implementation. Just a title and character encoding. No preview image or extra description, so no need for metadata. The title tag is primarily used by browsers to define the text in the browser tab and what gets auto-set as a bookmark's title."
 	},
 	description: {
 		code: `
@@ -27,7 +27,7 @@ export const tags: {
     Surely the app has cut off by now right? "/>
 `,
 		title: 'Basic HTML - Title & Description',
-		text: "The most basic implementation, but this time with a description. There's no technical limitation to how long your description can be, but most previews cut off after a couple of sentences. And rightfully so, folks should be clicking into the page if they're that invested right?"
+		text: "The most basic implementation, but this time with a description. There's no technical limitation to how long your description can be, but most previews cut off after a couple of sentences. And rightfully so, folks should be clicking into the page if they're that invested, right?"
 	},
 	loading: {
 		code: '',
@@ -47,7 +47,7 @@ export const tags: {
 `,
 		headerTitle: 'OG:Basic',
 		title: 'Open Graph - Basics',
-		text: "The Open Graph protocol is a set of standards originally annouced by Facebook in 2010 which define metadata tags that describe content and controls how it's displayed when sharing links on social media. It has been widely adopted by many platforms at this point. In the above example it duplicates the definition for title and definition, so when posted to most social media apps, the OG tags will be preferenced, but the title the browser tab will preference the standard html title tag. If the OG:description tag is omitted, most sites fallback to the standard description meta tag. This cascading definitions can be useful when targetting specific information to social media apps.<br/>In order for your content to be represented with the og:type tag. There are full type veritcals for music amd video with subtypes (eg: albums, movie, apisode), along with other simplier types like article, profile, or in this case, website."
+		text: "The Open Graph protocol is a set of standards originally announced by Facebook in 2010 that define metadata tags that describe content and control how it's displayed when sharing links on social media. It has been widely adopted by many platforms at this point. In the above example, it duplicates the definition for title and definition, so when posted to most social media apps, the OG tags will be preferred, but the title in the browser tab will preference the standard HTML title tag. If the og:description tag is omitted, most sites fall back to the standard description meta tag. This cascading of definitions can be useful when targeting specific information to social media apps. <br/>In order for your content to be represented with the og:type tag. There are full type verticals for music and video with subtypes (e.g., albums, movies, and episodes), along with other simpler types like articles, profiles, or, in this case, websites."
 	},
 	'OG-Image': {
 		code: `
@@ -67,7 +67,7 @@ export const tags: {
 `,
 		headerTitle: 'OG:Image',
 		title: 'Open Graph - Image',
-		text: "One of the most common OG tags you'll see is the preview image. This gives a potential user some idea of what to expect when they click. Some good strategies are either a screenshot of the page, or a logo/image that represents the content well. Recommended resolution is 2:1 ratio for large cards and 1:1 for small card with a minimum dimension of 300x157. You can also explicitly define additional structured data like height and width with an extra :. Put structured content immediately after it's root tag, both for better organization, and because most parsers will consider it done as soon as the next root element is encountered. Some platforms even provide support for gifs as preview images! Though not all of them, so make sure that first frame is meaningful as that will likely be the fallback still."
+		text: "One of the most common OG tags you'll see is the preview image. This gives a potential user some idea of what to expect when they click. Some good strategies are either a screenshot of the page or a logo/image that represents the content. The recommended resolution is a 2:1 ratio for large cards and 1:1 for small cards with a minimum dimension of 300x157. You can also explicitly define additional structured data like height and width with an extra ':'. Put structured content immediately after its root tag, both for better organization and because most parsers will consider it done as soon as the next root element is encountered. Some platforms even provide support for GIFs as preview images! Though not all of them, so make sure that first frame is meaningful, as that will likely be the fallback image."
 	},
 	'OG-Video': {
 		code: `
@@ -88,7 +88,7 @@ export const tags: {
 `,
 		headerTitle: 'OG:Video',
 		title: 'Open Graph - Video',
-		text: 'The structured data for the video tag matches the image tags fairly closely (kind of like if videos were just a series of images or something). Keep in mind though, showing your content like this, may prevent the need for a user to click through to your page, instead favoring to watch directly on whatever third part platform the link has been posted to.'
+		text: 'The structured data for the video tag matches the image tags fairly closely (kind of like if videos were just a series of images or something). Keep in mind though, showing your content like this may prevent the need for a user to click through to your page, instead favoring to watch directly on whatever third-party platform the link has been posted to.'
 	},
 	'OG-Audio': {
 		code: `
@@ -106,7 +106,7 @@ export const tags: {
 `,
 		headerTitle: 'OG:Audio',
 		title: 'Open Graph - Audio',
-		text: "The audio tag however has fewer sub-properties, as sounds don't have a height or width. But depending on how the recieving platform has implemented things, it might even allow the users to consume the content directly from the link preview - but most sites don't, so it's a good idea to include a cover image as well."
+		text: "The audio tag, however, has fewer sub-properties, as sounds don't have a height or width. But depending on how the receiving platform has implemented things, it might even allow the users to consume the content directly from the link preview—but most sites don't, so it's a good idea to include a cover image as well."
 	},
 	schema: {
 		code: `
@@ -129,7 +129,7 @@ export const tags: {
 `,
 		headerTitle: 'Schema.org',
 		title: 'Schema.org - Search Engines',
-		text: "Schema is another standard for describing content on the web created by Google, Microsoft, Yahoo and Yandex to make the job of their search web scrappers easier. It's documentation is long and complicated and honestly, after years of them making Google Search worse, I don't think it's my job to make it better, and likely defining these schemas just make it easier for their AI to hoover up your content right before they charge you for the privledge of using it again. So better to let Google and friends worry about their own bots and save your time for building cool things. But this is how you make those fancy google results your marketing department keeps going on about."
+		text: "Schema is another standard for describing content on the web created by Google, Microsoft, Yahoo, and Yandex to make the job of their search web scrapers easier. Its documentation is long and complicated, and honestly, after years of them making Google Search worse, I don't think it's my job to make it better, and likely defining these schemas just makes it easier for their AI to hoover up your content right before they charge you for the privilege of using it again. So it's better to let Google and friends worry about their own bots and save your time for building cool things. But this is how you make those fancy Google results your marketing department keeps going on about."
 	},
 	twitter: {
 		code: `
@@ -153,8 +153,8 @@ export const tags: {
   <meta property="og:type" content="website" />
   <meta property="og:image" content="https://assets.gregle.dev/projects/metatags/break-kings.jpg" />
 `,
-		title: ' ̶T̶w̶i̶t̶t̶e̶r̶  X',
-		text: "Some past websites implemented their own version of open graph tags, specific to their domain. For example, there once was a company called Twitter, they implemented their own meta tag system. Though that original website is long gone now, it's tags are still blindly used by other social media platforms and, when used in conjunction with the more standard Open Grah tags (and because of the cascading nature of them), it can be used to target specific messaging to userbases. While still showing the OG and basic descriptions on other platforms. It's important to note though that you as a developer can't control what tag meta data scrappers use or how it gets scrapped in general. Some platforms take the first ':image' definition found, some look for the last, some look specifically for a whole tag (ie: 'og:*, or twitter:*'), so best I suggest both wrapping your twitter troll message with duplicated og tags above and below, and to not over do it with your targetted messaging.",
+		title: '<s>Twitter</s> X',
+		text: "Some past websites implemented their own version of open graph tags, specific to their domain. For example, there once was a company called Twitter; they implemented their own meta tag system. Though that original website is long gone now, its tags are still blindly used by other social media platforms, and when used in conjunction with the more standard Open Graph tags (and because of the cascading nature of them), they can be used to target specific messaging to user bases. While still showing the OG and basic descriptions on other platforms. It's important to note, though, that you as a developer can't control what tag metadata scrappers use or how it gets scrapped in general. Some platforms take the first ':image' definition found, some look for the last, and some look specifically for a whole tag (i.e., 'og:*' or 'twitter:*'), so I suggest both wrapping your Twitter troll message with duplicated og tags above and below and not overdoing it with your targeted messaging.",
 		headerTitle: '<s>Twitter</s>'
 	},
 	'twitter-player': {
@@ -202,8 +202,8 @@ export const tags: {
   <meta property="og:title" content="Seattle Waterfront Before & After" />
 `,
 		headerTitle: '<s>Twitter</s>:player',
-		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player',
-		text: "Twitter also supports a player card. Maybe when paired with the video tags i makes players appear on other sites as well. The trick is that the player needs to be a hosted webpage with it's own fullscreen video player. This is because S developers are god damned lazy and just going to through the content in an iframe. This can be useful though, as you can really put anything you want inside that iframe. Like say meat spin, or I guess more complex applications too but why?"
+		title: '<s>Twitter</s> Player',
+		text: "Twitter also supports a player card. The Player card is basically an embedded non-scrolling iframe put directly inside the tweet. This is an incredibly flexible thing for us to play with. In this case I've set up a full-screen video player that I've paired with my own video content so that Twitter users see something entirely different and unrelated to the thing I've spent time creating for the world."
 	},
 	'twitter-teams': {
 		code: `
@@ -233,7 +233,7 @@ export const tags: {
   <!-- ... -->
 `,
 		headerTitle: '<s>Twitter</s>:safest',
-		title: '̶T̶w̶i̶t̶t̶e̶r̶ - Player - excluding unique image',
-		text: "Now if you're not including a different image or other content that overlaps with other OG tags, there's no need to repeat them! So we can greatly simplify our implementation even though it'll be less impactful to those posting to twitter."
+		title: '<s>Twitter</s> Player - excluding unique image',
+		text: "Now if you're not including a different image or other content that overlaps with other OG tags, there's no need to repeat them! So we can greatly simplify our implementation even though it'll be less impactful to those posting to Twitter. This time though I've linked to a more complex three.js implementation."
 	}
 };

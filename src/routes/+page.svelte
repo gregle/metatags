@@ -6,8 +6,8 @@
 	<h1>Fun w/ Meta Tags</h1>
 	<p>
 		I set up this little app to help test and verify how sites consume the various ways we can
-		define meta data on a site. Particularly when link previews are being generated. Each page uses
-		the meta data in their &lt;head&gt; elements that is displayed in the associated code snippets.
+		define metadata on a site. Particularly when link previews are being generated. Each page uses
+		the metadata in their &lt;head&gt; elements that is displayed in the associated code snippets.
 		This lets me quickly compare types when posting to various platforms and have a better idea of
 		how best to represent my websites and projects.
 	</p>
@@ -24,5 +24,9 @@
 
 	h1 {
 		width: 100%;
+	}
+
+	pre {
+		padding: 0;
 	}
 </style>

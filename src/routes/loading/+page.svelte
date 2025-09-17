@@ -62,9 +62,19 @@ const onLoaded = () => &#123
   </code></pre>
 
 	<p>
-		You can have a lot of fun manipulating the title tag and fav icon with javascript. Watch your
+		You can have a lot of fun manipulating the title tag and favicon with JavaScript. Watch your
 		browser tab as the title text is updated until some arbitrary time later when it declares itself
 		done loading. This is a very basic example, but you can be as creative as you want with it! Some
-		browsers (Firefox for example) even supports gifs as fav icons.
+		browsers (Firefox, for example) even support GIFs as favicons.
 	</p>
 </div>
+
+<style>
+	p {
+		margin: 0.5em;
+		width: 100%;
+	}
+	pre {
+		padding: 0;
+	}
+</style>

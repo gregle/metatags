@@ -18,7 +18,7 @@
 </svelte:head>
 
 <div class="text-column">
-	<h1>{data.title}</h1>
+	<h1>{@html data.title}</h1>
 	{#key data.code}
 		<pre><code class="language-html hljs">{`<head>${data.code}</head>`}</code></pre>
 	{/key}
@@ -26,3 +26,13 @@
 		{data.text}
 	</p>
 </div>
+
+<style>
+	p {
+		margin: 0.5em;
+		width: 100%;
+	}
+	pre {
+		padding: 0;
+	}
+</style>
